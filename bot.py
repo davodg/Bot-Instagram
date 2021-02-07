@@ -76,7 +76,36 @@ class InstagramBot:
                     print('Vezes comentadas:')
                     print(a)
                     for i in range(1, 3): driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                    time.sleep(random.randint(45, 60))
+                    time.sleep(random.randint(60, 90))
+                    # Pausas para evitar ser bloqueado pelo Instagram
+                    if a > 20:
+                        time.sleep(3600)
+                    if a > 40:
+                        time.sleep(3600)
+                    if a > 60:
+                        time.sleep(3600)
+                    if a > 80:
+                        time.sleep(10800)
+                    if a > 100:
+                        time.sleep(3600)
+                    if a > 120:
+                        time.sleep(3600)
+                    if a > 140:
+                        time.sleep(3600)
+                    if a > 160:
+                        time.sleep(3600)
+                    if a > 180:
+                        time.sleep(10800)
+                    if a > 200:
+                        time.sleep(3600)
+                    if a > 220:
+                        time.sleep(3600)
+                    if a > 240:
+                        time.sleep(3600)
+                    if a > 260:
+                        time.sleep(3600)
+                    if a > 280:
+                        time.sleep(10800)
             except Exception as e:
                 print(e)
                 time.sleep(5)
