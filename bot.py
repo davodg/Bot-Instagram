@@ -80,7 +80,7 @@ class InstagramBot:
                     # Pausas para evitar ser bloqueado pelo Instagram
                     if a > 20:
                         time.sleep(3600)
-                    if a > 40:
+                    elif a > 40:
                         time.sleep(3600)
                     elif a > 60:
                         time.sleep(3600)
