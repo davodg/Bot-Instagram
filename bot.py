@@ -77,35 +77,6 @@ class InstagramBot:
                     print(a)
                     for i in range(1, 3): driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                     time.sleep(random.randint(60, 90))
-                    # Pausas para evitar ser bloqueado pelo Instagram
-                    if a > 20:
-                        time.sleep(3600)
-                    elif a > 40:
-                        time.sleep(3600)
-                    elif a > 60:
-                        time.sleep(3600)
-                    elif a > 80:
-                        time.sleep(10800)
-                    elif a > 100:
-                        time.sleep(3600)
-                    elif a > 120:
-                        time.sleep(3600)
-                    elif a > 140:
-                        time.sleep(3600)
-                    elif a > 160:
-                        time.sleep(3600)
-                    elif a > 180:
-                        time.sleep(10800)
-                    elif a > 200:
-                        time.sleep(3600)
-                    elif a > 220:
-                        time.sleep(3600)
-                    elif a > 240:
-                        time.sleep(3600)
-                    elif a > 260:
-                        time.sleep(3600)
-                    elif a > 280:
-                        time.sleep(10800)
             except Exception as e:
                 print(e)
                 time.sleep(5)
